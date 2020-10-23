@@ -1,0 +1,6 @@
+---
+# tasks file for new
+
+- name: change nom
+  hostname:
+     name: "nsapoold05"

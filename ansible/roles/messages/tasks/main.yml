@@ -1,0 +1,7 @@
+---
+# tasks file for messages
+
+-  hosts: all
+   tasks:
+     - name: message
+       shell: echo "Welcome to my server!">> /etc/motd 

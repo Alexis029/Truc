@@ -1,0 +1,9 @@
+---
+# tasks file for create-user
+
+- hosts: all
+  tasks:
+    - name: create user
+      user:
+        name: marvin
+        password: NsaPool42	

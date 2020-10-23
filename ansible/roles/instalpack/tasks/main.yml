@@ -1,0 +1,43 @@
+---
+# tasks file for instalpack
+
+-  hosts: all
+   tasks:
+     - name: instalpack
+       shell: apt-get update 
+   
+     - name: instalvim
+       shell: apt-get install vim -y  
+
+     - name: instalgit
+       shell: apt-get install git -y
+     
+     - name: instaltree
+       shell: apt-get install tree -y
+      
+     - name: instalhtop
+       shell: apt-get install htop -y
+  
+     - name: instalcurl
+       shell: apt-get install curl -y
+ 
+     - name: instalemacs
+       shell: apt-get install emacs -y
+ 
+     - name: instalnet-tools
+       shell: apt-get install net-tools -y
+ 
+     - name: instalsudo
+       shell: apt-get install sudo -y
+ 
+     - name: instalmake
+       shell: apt-get install make -y
+ 
+     - name: instalunzip
+       shell: apt-get install unzip -y
+ 
+     - name: instalpython3
+       shell: apt-get install python3
+ 
+     - name: instalpython3-pip
+       shell: apt-get install python3-pip -y
